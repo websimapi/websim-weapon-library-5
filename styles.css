@@ -777,22 +777,6 @@ body.theme-blue button:hover {
   background: #7B1FA2;
   box-shadow: 0 2px 8px rgba(156,39,176,0.4);
 }
-.rules-mode-btn {
-  background: #ff69b4; 
-  border: none;
-  padding: 10px 20px;
-  font-size: 1.2em;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.2s;
-  color: white;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-}
-.rules-mode-btn:hover {
-  transform: scale(1.05);
-  background: #ff82b8;
-  box-shadow: 0 2px 8px rgba(255,105,180,0.4);
-}
 .rules-box {
   display: none;
   margin-top: 20px;
@@ -815,73 +799,7 @@ body.theme-blue button:hover {
 body.theme-cat .rules-box {
   background: rgba(255,182,193,0.3);
 }
-/* Nuclear theme */
-body.theme-nuclear {
-  background: #000 !important;
-  color: #00ff00;
-}
 
-body.theme-nuclear .input-section,
-body.theme-nuclear .weapon-card,
-body.theme-nuclear .chat-container,
-body.theme-nuclear .suggestions-box,
-body.theme-nuclear .battle-logs-box,
-body.theme-nuclear .admin-box,
-body.theme-nuclear .codes-box,
-body.theme-nuclear .rules-box {
-  background: rgba(0, 255, 0, 0.1);
-  border-color: #00ff00;
-}
-
-body.theme-nuclear h1 {
-  color: #00ff00;
-  text-shadow: 0 0 10px #00ff00;
-}
-
-body.theme-nuclear button {
-  background: #003300;
-  color: #00ff00;
-  border: 1px solid #00ff00;
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
-}
-
-body.theme-nuclear button:hover {
-  background: #004400;
-  box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
-}
-/* Blue theme */
-body.theme-blue {
-  background: #1e3a8a !important;
-  color: #93c5fd;
-}
-
-body.theme-blue .input-section,
-body.theme-blue .weapon-card,
-body.theme-blue .chat-container,
-body.theme-blue .suggestions-box,
-body.theme-blue .battle-logs-box,
-body.theme-blue .admin-box,
-body.theme-blue .codes-box,
-body.theme-blue .rules-box {
-  background: rgba(147, 197, 253, 0.1);
-  border-color: #93c5fd;
-}
-
-body.theme-blue h1 {
-  color: #93c5fd;
-  text-shadow: 0 0 10px #93c5fd;
-}
-
-body.theme-blue button {
-  background: #1e40af;
-  color: #93c5fd;
-  border: 1px solid #93c5fd;
-}
-
-body.theme-blue button:hover {
-  background: #1e4620;
-  box-shadow: 0 0 15px rgba(147, 197, 253, 0.5);
-}
 .upload-btn {
   margin-left: 10px;
   background: #4CAF50;
